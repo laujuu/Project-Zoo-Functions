@@ -7,5 +7,5 @@ function getEmployeeByName(employeeName) {
     || element.lastName === employeeName);
   return result;
 }
-console.log(getEmployeeByName());
+
 module.exports = getEmployeeByName;
